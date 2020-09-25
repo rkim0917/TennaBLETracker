@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FE15EA251DE68600F98750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE15E9251DE68600F98750 /* AppDelegate.swift */; };
+		28FE15EC251DE68600F98750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE15EB251DE68600F98750 /* SceneDelegate.swift */; };
+		28FE15EE251DE68600F98750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE15ED251DE68600F98750 /* ViewController.swift */; };
+		28FE15F1251DE68600F98750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FE15EF251DE68600F98750 /* Main.storyboard */; };
+		28FE15F3251DE68C00F98750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FE15F2251DE68C00F98750 /* Assets.xcassets */; };
+		28FE15F6251DE68C00F98750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FE15F4251DE68C00F98750 /* LaunchScreen.storyboard */; };
+		28FE1601251DE68D00F98750 /* TennaBLETrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE1600251DE68D00F98750 /* TennaBLETrackerTests.swift */; };
+		28FE160C251DE68D00F98750 /* TennaBLETrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE160B251DE68D00F98750 /* TennaBLETrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FE15FD251DE68D00F98750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FE15DE251DE68600F98750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FE15E5251DE68600F98750;
+			remoteInfo = TennaBLETracker;
+		};
+		28FE1608251DE68D00F98750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FE15DE251DE68600F98750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FE15E5251DE68600F98750;
+			remoteInfo = TennaBLETracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28FE15E6251DE68600F98750 /* TennaBLETracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennaBLETracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE15E9251DE68600F98750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28FE15EB251DE68600F98750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28FE15ED251DE68600F98750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28FE15F0251DE68600F98750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FE15F2251DE68C00F98750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FE15F5251DE68C00F98750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FE15F7251DE68C00F98750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE15FC251DE68D00F98750 /* TennaBLETrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennaBLETrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE1600251DE68D00F98750 /* TennaBLETrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennaBLETrackerTests.swift; sourceTree = "<group>"; };
+		28FE1602251DE68D00F98750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE1607251DE68D00F98750 /* TennaBLETrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennaBLETrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE160B251DE68D00F98750 /* TennaBLETrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennaBLETrackerUITests.swift; sourceTree = "<group>"; };
+		28FE160D251DE68D00F98750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FE15E3251DE68600F98750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE15F9251DE68D00F98750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE1604251DE68D00F98750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FE15DD251DE68600F98750 = {
+			isa = PBXGroup;
+			children = (
+				28FE15E8251DE68600F98750 /* TennaBLETracker */,
+				28FE15FF251DE68D00F98750 /* TennaBLETrackerTests */,
+				28FE160A251DE68D00F98750 /* TennaBLETrackerUITests */,
+				28FE15E7251DE68600F98750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28FE15E7251DE68600F98750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FE15E6251DE68600F98750 /* TennaBLETracker.app */,
+				28FE15FC251DE68D00F98750 /* TennaBLETrackerTests.xctest */,
+				28FE1607251DE68D00F98750 /* TennaBLETrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FE15E8251DE68600F98750 /* TennaBLETracker */ = {
+			isa = PBXGroup;
+			children = (
+				28FE15E9251DE68600F98750 /* AppDelegate.swift */,
+				28FE15EB251DE68600F98750 /* SceneDelegate.swift */,
+				28FE15ED251DE68600F98750 /* ViewController.swift */,
+				28FE15EF251DE68600F98750 /* Main.storyboard */,
+				28FE15F2251DE68C00F98750 /* Assets.xcassets */,
+				28FE15F4251DE68C00F98750 /* LaunchScreen.storyboard */,
+				28FE15F7251DE68C00F98750 /* Info.plist */,
+			);
+			path = TennaBLETracker;
+			sourceTree = "<group>";
+		};
+		28FE15FF251DE68D00F98750 /* TennaBLETrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FE1600251DE68D00F98750 /* TennaBLETrackerTests.swift */,
+				28FE1602251DE68D00F98750 /* Info.plist */,
+			);
+			path = TennaBLETrackerTests;
+			sourceTree = "<group>";
+		};
+		28FE160A251DE68D00F98750 /* TennaBLETrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FE160B251DE68D00F98750 /* TennaBLETrackerUITests.swift */,
+				28FE160D251DE68D00F98750 /* Info.plist */,
+			);
+			path = TennaBLETrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FE15E5251DE68600F98750 /* TennaBLETracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE1610251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETracker" */;
+			buildPhases = (
+				28FE15E2251DE68600F98750 /* Sources */,
+				28FE15E3251DE68600F98750 /* Frameworks */,
+				28FE15E4251DE68600F98750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennaBLETracker;
+			productName = TennaBLETracker;
+			productReference = 28FE15E6251DE68600F98750 /* TennaBLETracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FE15FB251DE68D00F98750 /* TennaBLETrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE1613251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETrackerTests" */;
+			buildPhases = (
+				28FE15F8251DE68D00F98750 /* Sources */,
+				28FE15F9251DE68D00F98750 /* Frameworks */,
+				28FE15FA251DE68D00F98750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FE15FE251DE68D00F98750 /* PBXTargetDependency */,
+			);
+			name = TennaBLETrackerTests;
+			productName = TennaBLETrackerTests;
+			productReference = 28FE15FC251DE68D00F98750 /* TennaBLETrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FE1606251DE68D00F98750 /* TennaBLETrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE1616251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETrackerUITests" */;
+			buildPhases = (
+				28FE1603251DE68D00F98750 /* Sources */,
+				28FE1604251DE68D00F98750 /* Frameworks */,
+				28FE1605251DE68D00F98750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FE1609251DE68D00F98750 /* PBXTargetDependency */,
+			);
+			name = TennaBLETrackerUITests;
+			productName = TennaBLETrackerUITests;
+			productReference = 28FE1607251DE68D00F98750 /* TennaBLETrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FE15DE251DE68600F98750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					28FE15E5251DE68600F98750 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					28FE15FB251DE68D00F98750 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 28FE15E5251DE68600F98750;
+					};
+					28FE1606251DE68D00F98750 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 28FE15E5251DE68600F98750;
+					};
+				};
+			};
+			buildConfigurationList = 28FE15E1251DE68600F98750 /* Build configuration list for PBXProject "TennaBLETracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FE15DD251DE68600F98750;
+			productRefGroup = 28FE15E7251DE68600F98750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FE15E5251DE68600F98750 /* TennaBLETracker */,
+				28FE15FB251DE68D00F98750 /* TennaBLETrackerTests */,
+				28FE1606251DE68D00F98750 /* TennaBLETrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FE15E4251DE68600F98750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE15F6251DE68C00F98750 /* LaunchScreen.storyboard in Resources */,
+				28FE15F3251DE68C00F98750 /* Assets.xcassets in Resources */,
+				28FE15F1251DE68600F98750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE15FA251DE68D00F98750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE1605251DE68D00F98750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FE15E2251DE68600F98750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE15EE251DE68600F98750 /* ViewController.swift in Sources */,
+				28FE15EA251DE68600F98750 /* AppDelegate.swift in Sources */,
+				28FE15EC251DE68600F98750 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE15F8251DE68D00F98750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE1601251DE68D00F98750 /* TennaBLETrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE1603251DE68D00F98750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE160C251DE68D00F98750 /* TennaBLETrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FE15FE251DE68D00F98750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FE15E5251DE68600F98750 /* TennaBLETracker */;
+			targetProxy = 28FE15FD251DE68D00F98750 /* PBXContainerItemProxy */;
+		};
+		28FE1609251DE68D00F98750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FE15E5251DE68600F98750 /* TennaBLETracker */;
+			targetProxy = 28FE1608251DE68D00F98750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FE15EF251DE68600F98750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FE15F0251DE68600F98750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FE15F4251DE68C00F98750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FE15F5251DE68C00F98750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FE160E251DE68E00F98750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28FE160F251DE68E00F98750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FE1611251DE68E00F98750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28FE1612251DE68E00F98750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28FE1614251DE68E00F98750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TennaBLETracker.app/TennaBLETracker";
+			};
+			name = Debug;
+		};
+		28FE1615251DE68E00F98750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TennaBLETracker.app/TennaBLETracker";
+			};
+			name = Release;
+		};
+		28FE1617251DE68E00F98750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TennaBLETracker;
+			};
+			name = Debug;
+		};
+		28FE1618251DE68E00F98750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TennaBLETrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richkim.TennaBLETrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TennaBLETracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FE15E1251DE68600F98750 /* Build configuration list for PBXProject "TennaBLETracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE160E251DE68E00F98750 /* Debug */,
+				28FE160F251DE68E00F98750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE1610251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE1611251DE68E00F98750 /* Debug */,
+				28FE1612251DE68E00F98750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE1613251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE1614251DE68E00F98750 /* Debug */,
+				28FE1615251DE68E00F98750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE1616251DE68E00F98750 /* Build configuration list for PBXNativeTarget "TennaBLETrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE1617251DE68E00F98750 /* Debug */,
+				28FE1618251DE68E00F98750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28FE15DE251DE68600F98750 /* Project object */;
+}
