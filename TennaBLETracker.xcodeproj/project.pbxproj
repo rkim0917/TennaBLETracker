@@ -15,6 +15,7 @@
 		28FE15F6251DE68C00F98750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FE15F4251DE68C00F98750 /* LaunchScreen.storyboard */; };
 		28FE1601251DE68D00F98750 /* TennaBLETrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE1600251DE68D00F98750 /* TennaBLETrackerTests.swift */; };
 		28FE160C251DE68D00F98750 /* TennaBLETrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE160B251DE68D00F98750 /* TennaBLETrackerUITests.swift */; };
+		28FE1622251DE9A600F98750 /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE1621251DE9A600F98750 /* ParticlePeripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		28FE1607251DE68D00F98750 /* TennaBLETrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennaBLETrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FE160B251DE68D00F98750 /* TennaBLETrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennaBLETrackerUITests.swift; sourceTree = "<group>"; };
 		28FE160D251DE68D00F98750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE1621251DE9A600F98750 /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		28FE15E8251DE68600F98750 /* TennaBLETracker */ = {
 			isa = PBXGroup;
 			children = (
+				28FE1620251DE95400F98750 /* Models */,
 				28FE15E9251DE68600F98750 /* AppDelegate.swift */,
 				28FE15EB251DE68600F98750 /* SceneDelegate.swift */,
 				28FE15ED251DE68600F98750 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				28FE160D251DE68D00F98750 /* Info.plist */,
 			);
 			path = TennaBLETrackerUITests;
+			sourceTree = "<group>";
+		};
+		28FE1620251DE95400F98750 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28FE1621251DE9A600F98750 /* ParticlePeripheral.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				28FE15EE251DE68600F98750 /* ViewController.swift in Sources */,
 				28FE15EA251DE68600F98750 /* AppDelegate.swift in Sources */,
+				28FE1622251DE9A600F98750 /* ParticlePeripheral.swift in Sources */,
 				28FE15EC251DE68600F98750 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5VC7Q6K6;
 				INFOPLIST_FILE = TennaBLETracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X5VC7Q6K6;
 				INFOPLIST_FILE = TennaBLETracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
