@@ -51,22 +51,18 @@ class ViewController: UIViewController, CBPeripheralDelegate, CBCentralManagerDe
         let vc1 = UINavigationController(rootViewController: FirstViewController())
         let vc2 = UINavigationController(rootViewController: SecondViewController())
         let vc3 = UINavigationController(rootViewController: ThirdViewController())
-        let vc4 = UINavigationController(rootViewController: FourthViewController())
-        let vc5 = UINavigationController(rootViewController: FifthViewController())
         
         vc1.title = "Home"
         vc2.title = "Contact"
         vc3.title = "Help"
-        vc4.title = "About"
-        vc5.title = "Settings"
         
-        tabBarVC.setViewControllers([vc1, vc2, vc3, vc4, vc5], animated: false)
+        tabBarVC.setViewControllers([vc1, vc2, vc3], animated: false)
         
         guard let items = tabBarVC.tabBar.items else {
             return
         }
         
-        let images = ["house", "bell", "person.circle", "star", "gear"]
+        let images = ["house", "bell", "person.circle"]
         
         for x in 0..<items.count {
             items[x].image = UIImage(systemName: images[x])
@@ -195,20 +191,3 @@ class ThirdViewController: UIViewController {
         title = "Help"
     }
 }
-
-class FourthViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .lightGray
-        title = "About"
-    }
-}
-
-class FifthViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .lightGray
-        title = "Settings"
-    }
-}
-
